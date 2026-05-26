@@ -30,3 +30,9 @@ Se implementó la lectura del registro de estado del controlador de teclado 8042
 Se implementó un mecanismo de polling utilizando INT 16h para verificar continuamente el estado del teclado, incorporando un timeout para evitar espera indefinida.
 
 ![Checkpoint 2](capturas/checkpoint_2.png)
+
+## 3: Escritura al puerto paralelo LPT1
+
+Se implementó el envío de datos al puerto paralelo LPT1 utilizando la instrucción OUT y la dirección estándar 378h.
+
+![Checkpoint 3](capturas/checkpoint_3.png)
