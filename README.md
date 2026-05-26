@@ -24,3 +24,9 @@ Implementación de programas en ensamblador x86 utilizando interrupciones BIOS/D
 Se implementó la lectura del registro de estado del controlador de teclado 8042 utilizando polling sobre el puerto 64h y lectura del scancode desde el puerto 60h.
 
 ![Checkpoint 1](capturas/checkpoint_1.png)
+
+## 2: Polling de teclado con timeout
+
+Se implementó un mecanismo de polling utilizando INT 16h para verificar continuamente el estado del teclado, incorporando un timeout para evitar espera indefinida.
+
+![Checkpoint 2](capturas/checkpoint_2.png)
